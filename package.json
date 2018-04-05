@@ -1,6 +1,6 @@
 {
   "name": "texlocal-npm",
-  "version": "0.1",
+  "version": "1.0.3",
   "description": "Basic npm module to send textlocal sms using nodejs",
   "main": "index.js",
   "scripts": {
