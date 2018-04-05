@@ -9,3 +9,5 @@ Install Basic modules like request and typescript or just complie code into java
 This module is also added in npm packages
 
 npm install texlocal-npm --save
+
+Find out at github :https://github.com/sahilraja/texlocal-npm
