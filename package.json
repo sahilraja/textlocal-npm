@@ -1,6 +1,6 @@
 {
   "name": "texlocal-npm",
-  "version": "1.0.0",
+  "version": "0.1",
   "description": "Basic npm module to send textlocal sms using nodejs",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,9 @@
   "bugs": {
     "url": "https://github.com/sahilraja/texlocal-npm/issues"
   },
+  "files": [
+    "README.md"
+  ],
   "homepage": "https://github.com/sahilraja/texlocal-npm#readme",
   "dependencies": {
     "request": "^2.85.0",

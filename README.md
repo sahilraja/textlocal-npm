@@ -8,6 +8,4 @@ Install Basic modules like request and typescript or just complie code into java
 
 This module is also added in npm packages
 
-npm install node_textlocal --save
-
-
+npm install texlocal-npm --save
