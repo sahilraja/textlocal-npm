@@ -11,19 +11,3 @@ This module is also added in npm packages
 npm install node_textlocal --save
 
 
-export async function sendTextLocalSMS(mobileNumber, MSG_TEMPLATE) {
-    let options = {
-        'apikey': TEXT_LOCAL_API_KEY,
-        'message': MSG_TEMPLATE,
-        'sender': TEXT_LOCAL_SENDER,
-        'numbers': mobileNumber
-    }
-    return new Promise((resolve, reject) => {
-        request.post({ url: TEXT_LOCAL_HOST, form: options }, (error, response, body) => {
-            if (error) {
-                return reject(error);
-            }
-            resolve({ response, body });
-        })
-    })
-}
