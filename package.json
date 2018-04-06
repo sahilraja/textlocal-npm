@@ -1,6 +1,6 @@
 {
-  "name": "texlocal-npm",
-  "version": "1.0.5",
+  "name": "textlocal-npm",
+  "version": "1.0.6",
   "description": "Basic npm module to send textlocal sms using nodejs",
   "main": "index.js",
   "scripts": {
@@ -10,20 +10,20 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sahilraja/texlocal-npm.git"
+    "url": "git+https://github.com/sahilraja/textlocal-npm.git"
   },
   "keywords": [
-    "texlocal",
+    "textlocal",
     "request",
     "typescript"
   ],
   "bugs": {
-    "url": "https://github.com/sahilraja/texlocal-npm/issues"
+    "url": "https://github.com/sahilraja/textlocal-npm/issues"
   },
   "files": [
     "README.md"
   ],
-  "homepage": "https://github.com/sahilraja/texlocal-npm#readme",
+  "homepage": "https://github.com/sahilraja/textlocal-npm#readme",
   "dependencies": {
     "request": "^2.85.0",
     "typescript": "^2.4.1"
